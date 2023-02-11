@@ -1,0 +1,84 @@
+
+.pagination {
+  padding: 30px 0;
+}
+
+.pagination__item {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.pagination__link {
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 55px;
+  height: 55px;
+  padding-top: 12px;
+  text-align: center;
+  background-color: #83B3D3;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pagination__item--active .pagination__link {
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
+.pagination__link:hover {
+  background-color: #68A2CA;
+}
+
+.pagination__link:focus {
+  background-color: #68A2CA;
+  outline: solid 3px #756257;
+}
+
+.pagination__list {
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.pagination__select {
+  display: flex;
+}
+
+.pagination__select p {
+  margin: 0;
+}
+
+.pagination .button-large {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 620px;
+  padding: 17px 20px;
+  min-height: 60px;
+}
+
+.pagination__select .select__button {
+  width: 160px;
+  height: 48px;
+  box-sizing: border-box;
+  margin-left: auto;
+  text-align: end;
+  padding: 10px;
+}
+
+.pagination__select p {
+  align-self: center;
+  margin-right: 51px;
+}

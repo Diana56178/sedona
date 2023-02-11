@@ -1,0 +1,88 @@
+
+.select__button {
+  box-sizing: border-box;
+  width: 287px;
+  border: solid 2px #E6E6E6;
+  border-radius: 4px;
+}
+
+.select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.select:hover,
+.select:focus {
+  outline: solid 3px #83B3D3;
+  border-radius: 4px;
+}
+
+.select-control {
+  width: 100%;
+  padding: 12px 127px 13px 19px;
+  border-radius: 4px;
+  padding-right: 48px;
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 23.3px;
+  background-color: #FFFFFF;
+  color: #333333;
+  border: 2px solid #E6E6E6;
+  background-image: url("/img/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  appearance: none;
+}
+
+.catalog-sort {
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view {
+  display: flex;
+  width: 168px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.view__item {
+  margin: 0 4px;
+}
+
+.view__link {
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #E6E6E6;
+  border-radius: 4px;
+}
+
+.view__item--active .view__link {
+  border: 2px solid #000000;
+}
+
+.view__link:hover,
+.view__link:focus {
+  outline: solid 3px #83B3D3;
+}
+
+.view__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}

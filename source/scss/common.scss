@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+html {
+  height: 100%;
+}
+
+.page__body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.wrapper {
+  width: 1058px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.page-main__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  display: inline-block;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  background-color: #83B3D3;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #68A2CA;
+}
+
+.button:focus {
+  background-color: #68A2CA;
+  outline: solid 3px #756257;
+}
+
+.button-secondary {
+  background-color: #756257;
+}
+
+.button-secondary:hover {
+  background-color: #615048;
+}
+
+.button-secondary:focus {
+  background-color: #615048;
+  outline: solid 3px #83B3D3;
+}
+
+.button-large {
+  font-size: 20px;
+}
+
+.select__button {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.button--liked {
+  background-color: #7DB54F;
+}
+
+.button--liked:hover {
+  background-color: #6C9E42;
+}
+
+.button--liked:focus {
+  background-color: #6C9E42;
+  outline: #756257;
+}
